@@ -1,7 +1,7 @@
 class Account {
     var holder = ""
     var numberAccount = 0
-    var amount = 0.0
+    private var amount = 0.0
 
     fun deposit(amountValue: Double) {
         amount += amountValue
